@@ -1,0 +1,30 @@
+version: '2'
+services:
+  db:
+    image: 'postgres:latest'
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: eueu
+    ports:
+      - '5432:5432'
+  app:
+    build: ./eueu
+    command: bundle exec rails s -p 3009 -b 0.0.0.0
+    volumes:
+      - ./eueu:/usr/src/app
+    ports:
+      - "3009:3009"
+    depends_on:
+      - db
+    links:
+      - db
+  nginx:
+    image: nginx
+    volumes_from:
+      - app
+    depends_on:
+      - app
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - 80:80
