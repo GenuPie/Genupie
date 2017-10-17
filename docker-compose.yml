@@ -4,14 +4,14 @@ services:
     image: 'postgres:latest'
     restart: always
     environment:
-      POSTGRES_PASSWORD: eueu
+      POSTGRES_PASSWORD: zhengbanqiao
     ports:
       - '5432:5432'
   app:
-    build: ./eueu
+    build: ./rails
     command: bundle exec rails s -p 3009 -b 0.0.0.0
     volumes:
-      - ./eueu:/usr/src/app
+      - ./rails:/usr/src/app
     ports:
       - "3009:3009"
     depends_on:

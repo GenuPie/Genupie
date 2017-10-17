@@ -1,9 +1,9 @@
-# eueu
- eueu
+# zhengbanqiao
+ 
 
 
 ### development
 
-> 1. git pull
+> 1. git clone
 > 2. docker-compose up
 > 

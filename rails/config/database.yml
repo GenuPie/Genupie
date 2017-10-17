@@ -21,12 +21,12 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   username: postgres
-  password: eueu
+  password: zhengbanqiao
   pool: 5
 
 development:
   <<: *default
-  database: eueu_development
+  database: zbq_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -60,7 +60,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: eueu_test
+  database: zbq_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -83,6 +83,6 @@ test:
 #
 production:
   <<: *default
-  database: eueu_production
-  username: eueu
-  password: <%= ENV['EUEU_DATABASE_PASSWORD'] %>
+  database: zbq_production
+  username: zbq
+  password: <%= ENV['ZBQ_DATABASE_PASSWORD'] %>
