@@ -1588,3 +1588,7 @@
     -webkit-animation-name: Floatingx;
     -moz-animation-name: Floatingx;
 }
+
+.card-footer .stats.stats-right {
+    margin-top: 10px;
+}
