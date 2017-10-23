@@ -7,6 +7,8 @@ services:
       POSTGRES_PASSWORD: zhengbanqiao
     ports:
       - '5432:5432'
+    volumes:
+      - ./psql-data:/var/lib/postgresql/data
   app:
     build: ./rails
     command: bundle exec rails s -p 3009 -b 0.0.0.0
