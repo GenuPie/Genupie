@@ -48,3 +48,4 @@ bower.json
 .byebug_history
 *.s[a-w][a-z]
 .DS_store
+.keep
