@@ -39,9 +39,15 @@
             <div class="collapse navbar-collapse justify-content-end" data-nav-image="./assets/img/blurred-image-1.jpg" data-color="orange">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="./dashboard.html" target="_blank">
+                        <a class="nav-link" href="#" target="_blank">
                             <i class="now-ui-icons design_bullet-list-67"></i>
                             <p>Products</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#login" data-toggle="modal" data-target="#loginModal">
+                            <i class="now-ui-icons users_single-02"></i>
+                            <p>Login</p>
                         </a>
                     </li>
                     <li class="nav-item dropdown">
@@ -75,7 +81,7 @@
                 <div class="row">
                     <div class="col-md-8 offset-md-2 text-center">
                         <h2 class="title">Save Your Money</h2>
-                        <h4>But Support Digital CopyRight.</h4>
+                        <h4>And Support Digital CopyRight.</h4>
                     </div>
                 </div>
             </div>
@@ -253,7 +259,47 @@
         </div>
     </div>
 
-
+    <!-- Login Modal -->
+    <div class="modal fade modal-primary" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-login">
+            <div class="modal-content">
+                <div class="card card-login card-plain">
+                    <div class="modal-header justify-content-center">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            <i class="now-ui-icons ui-1_simple-remove"></i>
+                        </button>
+                        <div class="header header-primary text-center">
+                            <div class="logo-container">
+                                <img src="assets/img/now-logo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form" method="" action="">
+                            <div class="card-content">
+                                <div class="input-group form-group-no-border input-lg">
+                                    <span class="input-group-addon">
+                                        <i class="now-ui-icons users_circle-08"></i>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="User Name...">
+                                </div>
+                                <div class="input-group form-group-no-border input-lg">
+                                    <span class="input-group-addon">
+                                        <i class="now-ui-icons ui-1_lock-circle-open"></i>
+                                    </span>
+                                    <input type="password" placeholder="Password..." class="form-control">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer text-center">
+                        <a href="#pablo" class="btn btn-neutral btn-round btn-lg btn-block">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  End Modal -->
 <!-- common footer -->
     <footer class="footer footer-big" data-background-color="black">
         <div class="container">
