@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 20171023021222) do
     t.string "name", limit: 50, default: "", null: false
     t.string "email", limit: 100, default: "", null: false
     t.string "password_digest", limit: 200, default: "", null: false
-    t.datetime "last_login_time", null: false
+    t.datetime "last_login_time", default: "1970-01-01 00:00:00", null: false
     t.string "remember_token", limit: 60, default: "", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

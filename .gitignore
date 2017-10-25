@@ -48,3 +48,6 @@ bower.json
 
 # Ignore Byebug command history file.
 .byebug_history
+*.s[a-w][a-z]
+.DS_store
+.keep
