@@ -1,3 +1,6 @@
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/oiahoon/Genupie.svg?columns=all)](https://waffle.io/oiahoon/Genupie)
+
+
 # zhengbanqiao
  
 
