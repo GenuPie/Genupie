@@ -1,4 +1,3 @@
-
 # GenuPie
 [![Maintainability](https://api.codeclimate.com/v1/badges/1d5684080c17f10e8ae9/maintainability)](https://codeclimate.com/github/oiahoon/Genupie/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/1d5684080c17f10e8ae9/test_coverage)](https://codeclimate.com/github/oiahoon/Genupie/test_coverage)
