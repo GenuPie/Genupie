@@ -1,0 +1,11 @@
+inherit_from: base_rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 2.3
+
+Lint/Debugger:
+  Exclude:
+  - rails/lib/util_support/mobile.rb
+
+Style/SpecialGlobalVars:
+  Enabled: false
