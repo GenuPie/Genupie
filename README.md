@@ -18,11 +18,14 @@
 
 # development
 
-trello -> [GenuiPie](https://trello.com/b/tm7p2Rup/%E6%AD%A3%E7%89%88%E6%A1%A5)
+
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/oiahoon/Genupie.svg?columns=all)](http://waffle.io/oiahoon/Genupie)
+[![Throughput Graph](https://graphs.waffle.io/oiahoon/Genupie/throughput.svg)](https://waffle.io/oiahoon/Genupie/metrics/throughput)
+
+# Contribute
 
 > 1. git clone
 > 2. docker-compose up
-> 
 
 # Other Projects
 
