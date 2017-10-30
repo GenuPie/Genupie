@@ -18,8 +18,8 @@
 
 # development
 
-
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/oiahoon/Genupie.svg?columns=all)](http://waffle.io/oiahoon/Genupie)
+
 [![Throughput Graph](https://graphs.waffle.io/oiahoon/Genupie/throughput.svg)](https://waffle.io/oiahoon/Genupie/metrics/throughput)
 
 # Contribute
