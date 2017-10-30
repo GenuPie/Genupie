@@ -22,6 +22,7 @@
 
 [![Throughput Graph](https://graphs.waffle.io/oiahoon/Genupie/throughput.svg)](https://waffle.io/oiahoon/Genupie/metrics/throughput)
 
+---
 # Contribute
 
 > 1. git clone

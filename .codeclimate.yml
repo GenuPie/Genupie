@@ -3,8 +3,6 @@ engines:
     enabled: true
     config:
       score_threshold: 20.0
-  rubocop:
-    enabled: true
   rubymotion:
     enabled: true
   markdownlint:
