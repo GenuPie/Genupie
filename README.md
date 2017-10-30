@@ -24,6 +24,12 @@ trello -> [GenuiPie](https://trello.com/b/tm7p2Rup/%E6%AD%A3%E7%89%88%E6%A1%A5)
 > 2. docker-compose up
 > 
 
+# Other Projects
+
+- [Char Room](https://github.com/cdphp/rails-poker)
+- [scroll-to-github-top](https://github.com/oiahoon/scroll-to-github-top)
+- [JTB](https://github.com/oiahoon/jtb)
+
 ---
 # LICENSE
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Foiahoon%2FGenupie.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Foiahoon%2FGenupie?ref=badge_large)
