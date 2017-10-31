@@ -7,7 +7,7 @@ engines:
   brakeman:
     enabled: true
     config:
-      app_path: genupie/rails
+      app_path: ./rails
   rubymotion:
     enabled: true
   eslint:
