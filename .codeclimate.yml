@@ -6,8 +6,8 @@ engines:
     #    enabled: false
   brakeman:
     enabled: true
-    paths:
-    - rails/**
+    config:
+      path: rails/**
   rubymotion:
     enabled: true
   eslint:
