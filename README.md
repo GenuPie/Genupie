@@ -24,8 +24,9 @@
 ---
 # Contribute
 
-> 1. git clone
-> 2. docker-compose up
+> 1. install docker & docker-composer
+> 2. git clone
+> 3. docker-compose up
 
 # Other Projects
 
