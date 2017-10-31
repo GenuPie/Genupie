@@ -7,7 +7,7 @@ engines:
   brakeman:
     enabled: true
     config:
-      path: rails/**
+      app_path: rails/**
   rubymotion:
     enabled: true
   eslint:
