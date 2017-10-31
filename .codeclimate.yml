@@ -6,8 +6,7 @@ engines:
     #    enabled: false
   brakeman:
     enabled: true
-    config:
-      app_path: ./rails
+    
   rubymotion:
     enabled: true
   eslint:
@@ -22,7 +21,6 @@ engines:
       - javascript:
 ratings:
   paths:
-  - rails/**
   - "**.rb"
 exclude_paths:
 - page-template/**/*
