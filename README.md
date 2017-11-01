@@ -1,6 +1,6 @@
 # GenuPie
-[![Maintainability](https://api.codeclimate.com/v1/badges/1d5684080c17f10e8ae9/maintainability)](https://codeclimate.com/github/oiahoon/Genupie/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/1d5684080c17f10e8ae9/test_coverage)](https://codeclimate.com/github/oiahoon/Genupie/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/77cc99aa3236abdacee5/maintainability)](https://codeclimate.com/github/oiahoon/Genupie/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/77cc99aa3236abdacee5/test_coverage)](https://codeclimate.com/github/oiahoon/Genupie/test_coverage)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Foiahoon%2FGenupie.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Foiahoon%2FGenupie?ref=badge_shield)
 
