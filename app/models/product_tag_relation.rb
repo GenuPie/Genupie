@@ -1,0 +1,2 @@
+class ProductTagRelation < ApplicationRecord
+end
